@@ -24,9 +24,11 @@ Każda grupa MIG automatycznie zarządza 2 VM, które są rozproszone na 2 róż
     gcloud auth application-default login
     gcloud auth application-default set-quota-project YOUR_PROJECT_ID
     ```
-## Strona internetowa działa dla publicznych adresów IP. W tym przypadku, np,. tak:
+## Strona internetowa działa dla publicznych adresów IP. W tym przypadku, np. tak:
 <img width="390" height="445" alt="Zrzut ekranu 2025-11-24 o 18 59 28" src="https://github.com/user-attachments/assets/34ee70d5-a384-47e4-9064-722a230b5118" />
 
 ---
 ## W celu uniknięcia opłat, po uruchomieniu kodu:
 terraform destroy -var="project_id=YOUR_PROJECT_ID"
+<img width="1178" height="197" alt="Zrzut ekranu 2025-11-24 o 19 33 06" src="https://github.com/user-attachments/assets/e34021c3-04cd-45bb-9723-9f812fd1eec1" />
+
